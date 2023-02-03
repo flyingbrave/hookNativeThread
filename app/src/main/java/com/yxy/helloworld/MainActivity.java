@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         hookThread();
         String str=stringFromJNI();
-//        Log.i("tag5","str "+str);
+//        Log.i("tag5","C++ str "+str);
     }
     public native String stringFromJNI();
 
